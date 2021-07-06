@@ -10,8 +10,8 @@ public static void main(String[] args) {
 		int first;
 		int second;
 		
-		first = rnd.nextInt(100);
-		second = rnd.nextInt(100);
+		first = rnd.nextInt(10000);
+		second = rnd.nextInt(1000);
 
 		System.out.println("Сравневыемые числа "+first+" и "+second);
 		
@@ -52,7 +52,7 @@ public static void main(String[] args) {
 		
 		}else if (count1==count2) {
 		
-			System.out.println("Числа "+x+" и "+y+" равны");
+			System.out.println("Кол-во символов в цифрах "+x+" и "+y+" равно");
 		}
 		
 	}
