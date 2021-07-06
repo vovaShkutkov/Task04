@@ -52,7 +52,7 @@ public class Task04 {
 		} else if(n>3 | n<=0) {
 			
 			sc.nextLine();
-			System.out.println("Введено некорретное значение N");
+			System.out.println("Введено некорретное значение N, начни сначала");
 							
 		}
 		
